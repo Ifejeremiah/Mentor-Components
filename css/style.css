@@ -1,0 +1,113 @@
+.primary-button, .secondary-button {
+  padding: 6px 10px;
+  background: #734bba;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  margin: 20px 0;
+  box-shadow: 0 2px 8px #ccb5f7;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.25s transform;
+}
+.primary-button:hover, .secondary-button:hover {
+  transform: scale(0.98);
+}
+
+.secondary-button {
+  border: 2px solid #734bba;
+  background: #fff;
+  color: #734bba;
+  box-shadow: none;
+}
+
+.text-field, .password-field {
+  border: 1px solid #333;
+  width: 400px;
+  padding: 7px 14px;
+  border-radius: 0.4rem;
+  margin-bottom: 20px;
+  margin-top: 8px;
+}
+.text-field input, .password-field input {
+  border: 0;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  transition: 0.6s;
+}
+.text-field input:focus, .password-field input:focus {
+  padding-left: 24px;
+}
+
+.password-field {
+  display: flex;
+  align-items: center;
+}
+.password-field i {
+  color: #734bba;
+  font-size: 1.2rem;
+}
+.password-field input {
+  margin: 0 8px;
+}
+
+.profile-card-1, .profile-card-2 {
+  background: #fdf2df;
+  width: 260px;
+  padding: 14px 24px;
+  border-radius: 0.5rem;
+  box-shadow: 0 6px 8px #bbb9b9;
+  box-shadow: 0 6px 8px #c0c0c0;
+}
+.profile-card-1 .img, .profile-card-2 .img {
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.profile-card-1 .name, .profile-card-2 .name {
+  font-weight: 600;
+}
+.profile-card-1 .name, .profile-card-2 .name, .profile-card-1 .title, .profile-card-2 .title {
+  font-size: 0.96rem;
+}
+.profile-card-1 .ratings, .profile-card-2 .ratings {
+  color: #f9af39;
+}
+
+.event-card {
+  background: #f3f3f3;
+  width: 240px;
+  padding: 10px;
+  border-radius: 0.4rem;
+  box-shadow: 0 6px 8px #c0c0c0;
+}
+.event-card .img {
+  overflow: hidden;
+  border-radius: 0.25rem;
+}
+.event-card .body {
+  color: #686565;
+}
+
+.arrow-right, .arrow-left {
+  color: #734bba;
+  font-size: 0.96rem;
+}
+
+.heading {
+  color: #734bba;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
