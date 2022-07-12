@@ -1,0 +1,25 @@
+@import variables
+
+.primary-button
+  padding: 6px 10px
+  background: $primary-color
+  border: 0
+  outline: 0
+  color: #fff
+  border-radius: .5rem
+  font-size: 1.1rem
+  margin: 20px 0
+  box-shadow: 0 2px 8px #ccb5f7
+  display: inline-block 
+  text-align: center
+  cursor: pointer
+  transition: .25s transform
+  &:hover
+    transform: scale(.98)
+
+.secondary-button
+  @extend .primary-button
+  border: 2px solid $primary-color
+  background: #fff
+  color: $primary-color
+  box-shadow: none

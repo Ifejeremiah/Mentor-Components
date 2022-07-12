@@ -1,0 +1,53 @@
+@import variables
+
+@mixin shadow()
+  box-shadow: 0 6px 8px #c0c0c0
+  
+  
+// Profile Card
+.profile-card-1
+  background: #fdf2df
+  width: 260px
+  padding: 14px 24px
+  border-radius: .5rem
+  box-shadow: 0 6px 8px #bbb9b9
+  @include shadow()
+
+  .img
+    overflow: hidden
+    width: 60px
+    height: 60px
+    border-radius: 50%
+  .name
+    font-weight: 600
+  .name, .title
+    font-size: .96rem
+  .ratings
+    color: $secondary-color
+
+.profile-card-2
+  @extend .profile-card-1
+
+// Event Card
+.event-card
+  background: #f3f3f3
+  width: 240px
+  padding: 10px 
+  border-radius: .4rem
+  @include shadow()
+
+  .img
+    overflow: hidden
+    border-radius: .25rem
+
+  .body
+    color: #686565
+
+
+// Arrows
+.arrow-right
+  color: $primary-color
+  font-size: .96rem
+
+.arrow-left
+  @extend .arrow-right
