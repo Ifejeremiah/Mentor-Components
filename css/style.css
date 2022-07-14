@@ -5,13 +5,14 @@
   outline: 0;
   color: #fff;
   border-radius: 0.5rem;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   margin: 20px 0;
   box-shadow: 0 2px 8px #ccb5f7;
   display: inline-block;
   text-align: center;
   cursor: pointer;
   transition: 0.25s transform;
+  border: 2px solid transparent;
 }
 .primary-button:hover, .secondary-button:hover {
   transform: scale(0.98);
@@ -193,6 +194,31 @@
 }
 .goal-card .footer .status-btn-3 {
   background: #e02323;
+}
+
+.modal-header, .modal-footer, .modal-content {
+  border: 0;
+}
+
+#edit-contact .modal-dialog {
+  max-width: 900px;
+}
+#edit-contact .modal-dialog .modal-body .input-email {
+  color: #bdbbbb;
+}
+#edit-contact .modal-dialog .modal-body .input-email .text-field, #edit-contact .modal-dialog .modal-body .input-email .password-field {
+  margin-bottom: 8px;
+}
+#edit-contact .modal-dialog .modal-body .input-email p {
+  font-size: 0.96rem;
+}
+#edit-contact .modal-dialog .modal-body .form-select {
+  border: 1px solid #333;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border-color: 0;
+  width: 400px;
+  padding: 16px 20px;
 }
 
 .heading {
